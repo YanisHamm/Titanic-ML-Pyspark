@@ -6,4 +6,5 @@ Le but de ce projet est de construire un modèle prédictif qui réponde à la q
 Pour cela, nous avons utiliser un dataset de [Kaggle](https://www.kaggle.com/competitions/titanic/data)
 
 ## Utilisation :
-Installer les biblliothèques nécessaires avec la commande : pip install requirement.txt
+Installer les biblliothèques nécessaires avec la commande :
+pip install -r Requirement.txt
