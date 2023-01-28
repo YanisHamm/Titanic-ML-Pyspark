@@ -6,22 +6,32 @@ Le but de ce projet est de construire un modèle prédictif qui réponde à la q
 Pour cela, nous avons utiliser un dataset de [Kaggle](https://www.kaggle.com/competitions/titanic/data)
 
 ## Utilisation :
-Installer les biblliothèques nécessaires avec la commande :
+### Installer les biblliothèques nécessaires avec la commande :
 
 pip install -r Requirement.txt
 
 
-Lancer la Session Spark avec la commande : 
+### Lancer la Session Spark avec la commande : 
 
 python SparkSession.py
 
-Lancer le Pre-processing des données avec la commande :
+### Lancer le Pre-processing des données avec la commande :
 
 python Preprocess.py
 
-Créer le model de Machine Learning avec la commande : 
+### Créer le model de Machine Learning avec la commande : 
 
 python ML_model.py
 
-Lancer les différents algorithmes de prédiction : 
+### Lancer les différents algorithmes de prédiction : 
+
+#### Regression logistique :
+python LogisticReg.py
+
+#### Random Forest :
+python RandomFor.py
+
+#### GB : 
+python GradBo.py
+
 
